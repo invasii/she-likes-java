@@ -14,8 +14,35 @@ public class Main {
 
         //assigning a new value to variable
         myDaughterAge = 6;
-        //sour + enter
+        //sout + enter
         System.out.println(myDaughterAge);
+
+        // use camel case starting with lower letter
+        // String type is for words and letters (numbers also considered as letters)
+        String myName = "Inga";
+        String mySurname = "Vasiliauskaite";
+        System.out.println(myName + " " + mySurname);
+
+        String five = "5";
+        String otherFive = "5";
+        System.out.println(five + otherFive);
+
+        //true or false
+        boolean trueValue = true;
+        trueValue = false;
+
+        System.out.println(trueValue);
+
+        //11.0
+        int eleven = 11;
+
+        //double type for number with fraction part
+        double truEleven = 11.0;
+
+
+
+
+
 
     }
 
