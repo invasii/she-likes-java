@@ -12,7 +12,7 @@ public class Homeworkcalculator {
         Scanner inputReader = new Scanner(System.in);
         firstNumber = inputReader.nextInt();
         System.out.println("You provided first number: " + firstNumber);
-        System.out.println("Please provide second number: ");
+        System.out.println("\n\nPlease provide second number: ");
         secondNumber = inputReader.nextInt();
         System.out.println("You provided second number: " + secondNumber);
         int sum = firstNumber + secondNumber;
@@ -51,7 +51,8 @@ public class Homeworkcalculator {
         int quotient = firstNumber / secondNumber;
         System.out.println("Division is: " + quotient);
 
-
+        // \n means - put a new line her
+        //e.g. System.out.println("\n\nPlease provide second number: ");
 
 
 
