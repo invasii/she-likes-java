@@ -20,7 +20,7 @@ public class Main {
         System.out.println(myDaughterAge);
 
         // use camel case starting with lower letter
-        // String type is for words and letters (numbers also considered as letters)
+        // String type is for words and letters (com.sda.she_likes_java.homework.numbers also considered as letters)
         String myName = "Inga";
         String mySurname = "Vasiliauskaite";
         System.out.println(myName + " " + mySurname);

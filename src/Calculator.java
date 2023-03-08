@@ -5,7 +5,7 @@ public class Calculator {
     //psvm (public static void main line appears) - not so magic shortcut
     public static void main(String[] args) {
         System.out.println("Calculator...");
-        System.out.println("Calculating sum of two numbers ");
+        System.out.println("Calculating sum of two com.sda.she_likes_java.homework.numbers ");
         System.out.println("Provide first number: ");
         int firstNumber;
         int secondNumber;
