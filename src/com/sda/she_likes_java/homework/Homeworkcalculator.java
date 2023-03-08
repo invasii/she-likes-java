@@ -1,3 +1,5 @@
+package com.sda.she_likes_java.homework;
+//packages use reverse domain names
 import java.util.Scanner;
 
 public class Homeworkcalculator {
