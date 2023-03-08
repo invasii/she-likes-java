@@ -6,7 +6,7 @@ public class Homeworkcalculator {
     public static void main(String[] args) {
         System.out.println("Homework task - Calculator with 4 operations");
         System.out.println("Calculating addition + ");
-        System.out.println("Please provide first number: ");
+        System.out.println("\n\nPlease provide first number: ");
         int firstNumber;
         int secondNumber;
         Scanner inputReader = new Scanner(System.in);
@@ -18,35 +18,32 @@ public class Homeworkcalculator {
         int sum = firstNumber + secondNumber;
         System.out.println("Sum is: " + sum);
 
-        System.out.println("Calculating substraction - ");
+        System.out.println("\n\nCalculating substraction - ");
         System.out.println("Please provide first number: ");
-        Scanner inputR = new Scanner(System.in);
-        firstNumber = inputR.nextInt();
+        firstNumber = inputReader.nextInt();
         System.out.println("You provided first number: " + firstNumber);
         System.out.println("Please provide second number: ");
-        secondNumber = inputR.nextInt();
+        secondNumber = inputReader.nextInt();
         System.out.println("You provided second number: " + secondNumber);
         int difference = firstNumber - secondNumber;
         System.out.println("Substraction is: " + difference);
 
-        System.out.println("Calculating multiplication * ");
+        System.out.println("\n\nCalculating multiplication * ");
         System.out.println("Please provide first number: ");
-        Scanner inputobj = new Scanner(System.in);
-        firstNumber = inputobj.nextInt();
+        firstNumber = inputReader.nextInt();
         System.out.println("You provided first number: " + firstNumber);
         System.out.println("Please provide second number: ");
-        secondNumber = inputR.nextInt();
+        secondNumber = inputReader.nextInt();
         System.out.println("You provided second number: " + secondNumber);
         int product = firstNumber * secondNumber;
         System.out.println("Multiplication is: " + product);
 
-        System.out.println("Calculating division / ");
+        System.out.println("\n\nCalculating division / ");
         System.out.println("Please provide first number: ");
-        Scanner inputobject = new Scanner(System.in);
-        firstNumber = inputobject.nextInt();
+        firstNumber = inputReader.nextInt();
         System.out.println("You provided first number: " + firstNumber);
         System.out.println("Please provide second number: ");
-        secondNumber = inputR.nextInt();
+        secondNumber = inputReader.nextInt();
         System.out.println("You provided second number: " + secondNumber);
         int quotient = firstNumber / secondNumber;
         System.out.println("Division is: " + quotient);
