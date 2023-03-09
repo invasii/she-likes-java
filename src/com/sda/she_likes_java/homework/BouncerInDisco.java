@@ -13,7 +13,7 @@ public class BouncerInDisco {
         if (personAge >= 16) {
             System.out.println("That is nice. Well, lets see if you tall enough");
         } else {
-            System.out.println("You way too young, we need to check you height as well");
+            System.out.println("You way too young, we need to check your height as well");
         }
 
         System.out.println("\n\nTell me what is your height?");
