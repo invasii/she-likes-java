@@ -1,5 +1,6 @@
 package com.sda.she_likes_java.homework;
 //packages use reverse domain names
+
 import java.util.Scanner;
 
 public class Homeworkcalculator {
@@ -50,7 +51,6 @@ public class Homeworkcalculator {
 
         // \n means - put a new line her
         //e.g. System.out.println("\n\nPlease provide second number: ");
-
 
 
     }

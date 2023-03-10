@@ -42,37 +42,27 @@ public class Main {
         double truEleven = 11.0;
 
         System.out.println("Exercise 7 ");
-        int sum = 5+8;
+        int sum = 5 + 8;
         System.out.println("Sum of 5 and 8 is = " + sum);
 
         int difference = 11 - 4;
         System.out.println("Difference of 11 and 4 is: " + difference);
 
-        int product = 5*8;
+        int product = 5 * 8;
         System.out.println("Product of 5 and 8 is: " + product);
 
-        double quotient = 5.0/8.5;
+        double quotient = 5.0 / 8.5;
         System.out.println("Quotient of 5.0 and 8.5 is: " + quotient);
 
         //Lesson 4
         //First we divide, we have two 4 in the 9
         System.out.println("Reminder");
-        int result = 9/4;
+        int result = 9 / 4;
         System.out.println("result is: " + result);
 
         //modulo operator - shows what is left after diving 9/4 (which is 1) by using % sign
-        result = 9%4;
+        result = 9 % 4;
         System.out.println("and now result is: " + result);
-
-
-
-
-
-
-
-
-
-
 
 
     }

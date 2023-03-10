@@ -18,6 +18,5 @@ public class FloatingPointRanges {
         System.out.println("maximum double number is: " + Double.MAX_VALUE);
 
 
-
     }
 }
