@@ -45,9 +45,9 @@ public class Operators {
 
         // ! means negation, for example !(value >= 18) means that we are not adults
 
-        boolean polite = false;
-
-        if (!polite); {
+        // another example: negation (!) of isPolite equals naughty
+        boolean ispolite = false;
+        if (!ispolite); {
             System.out.println("You are not polite, you just naughty");
         }
 
