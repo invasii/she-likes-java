@@ -14,7 +14,7 @@ public class ConditionalExpressions {
         if (condition) {
             System.out.println("This will be run only when condition is true");
         } else {
-            System.out.println("This will be run when condition is flase");
+            System.out.println("This will be run when condition is false");
         }
 
         System.out.println();
