@@ -1,4 +1,4 @@
-package com.sda.she_likes_java.homework.primitive_data_types;
+package com.sda.she_likes_java.controls.primitive_data_types;
 
 import java.util.Scanner;
 
