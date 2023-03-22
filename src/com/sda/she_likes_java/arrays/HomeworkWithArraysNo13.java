@@ -16,9 +16,10 @@ public class HomeworkWithArraysNo13 {
             numbers[i] = 3 * i;
             // numbers[i - 1]
         }
-       //read data
+       //read data from last element till first
+        // second for loop can also be indicated as for(int i = numbers.length - 1; i > -1; i--)
 
-        for(int i = numbers.length - 1; i > -1; i--) {
+        for(int i = numbers.length -1; i >= 0; i--) {
             System.out.println("number[" + i + "] = " + numbers[i]);
         }
     }
