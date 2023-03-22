@@ -3,6 +3,10 @@ package com.sda.she_likes_java.arrays;
 import java.util.Random;
 
 public class EnglishSchoolGrades {
+    /* - opening part of multiline comment
+
+    closing part of multiline comment */
+
     public static void main(String[] args) {
         int[] myGradesOnEnglishClass = new int[100];
 
