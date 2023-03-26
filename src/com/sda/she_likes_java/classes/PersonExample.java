@@ -18,5 +18,6 @@ public class PersonExample {
 
         System.out.println("My name currently is: " + me.name);
         System.out.println("Your name currently is: " + you.name);
+
     }
 }
