@@ -27,5 +27,20 @@ public class HouseExample {
         System.out.println("Mary: " + wife);
         System.out.println("Jack: " + husband);
 
+
+        myHouse = new House(1, 1);
+        System.out.println("Now myHosue reference: " + myHouse);
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+
+        myHouse = new House(10, 10);
+        wife.setHouse(myHouse);
+        System.out.println("Mary: " + wife);
+        System.out.println("Jack: " + husband);
+
+        wife.setHouse(husband.getHouse()); //wife moved back to the house where husband is and its the only way to get back
+        //because if nobody is connected to that house - it will disappear after some time
+
+
     }
 }
