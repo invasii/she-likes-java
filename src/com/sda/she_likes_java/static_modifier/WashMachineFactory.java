@@ -13,11 +13,15 @@ public class WashMachineFactory {
         // DO NOT USE INSTANT REFERENCES TO ACCESS STATIC MEMBERS (FIELDS/METHODS)
         // so samsung2 will have 101 and 102 as after that we indicated print out line, for all the products
         samsung.setNumberOfCreatedMachines(100);
+        samsung.increaseSerialNumber();
+        System.out.println("samsung serial number is: " + samsung.getSerialNumber());
+
 
 
         WashMachine samsung2 = new WashMachine("Samsung", "1x2");
         System.out.println("Current number of washing machines is: " + WashMachine.getNumberOfCreatedMachines());
         System.out.println("samsung2 serial number is: " + samsung2.getSerialNumber());
+        samsung2.increaseSerialNumber();
 
         for(int i = 0; i < 10; i++); {
             makeSomeWashMachines();

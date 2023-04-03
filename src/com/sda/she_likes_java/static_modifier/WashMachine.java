@@ -37,6 +37,11 @@ public class WashMachine {
         return model;
     }
 
+    // instance method, belongs to int
+    public void increaseSerialNumber() {
+        serialNumber++;
+    }
+
     @Override
     public String toString() {
         return "WashMachine{" +
