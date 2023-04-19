@@ -8,6 +8,7 @@ public class Main {
 
         // brand is private - so it is not visible outside the class
         //funnyCar.brand
+        //funnyCar.setBrand("toyota");
         funnyCar.model = "corolla";
 
         // cannot see color from outside its class package (as its indicated as private=not indicated as public)
