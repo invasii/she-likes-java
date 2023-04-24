@@ -6,7 +6,7 @@ public class Man extends Human {
         System.out.println("I'm a man :}");
     }
 
-    public void learnToClean() {
+    public void learnToCleanHouse() {
         System.out.println("I like it");
     }
 }
