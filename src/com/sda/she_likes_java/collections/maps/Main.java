@@ -17,10 +17,24 @@ public class Main {
         myJeans.put("my old one", new Trousers("unknown material", "primemark"));
         myJeans.put("my old one", new Trousers("unknown material", "primemark II")); // adding another key
         // overrides the first one, in this case primemark II overrides primemark
+        printMyJeans(myJeans);
 
         Map<Person, Trousers> personTrousers = new HashMap<>();
         personTrousers.put(new Person("inga", "v"), new Trousers("good material", "primemark"));
         personTrousers.put(new Person("ona", "v"), new Trousers("good material", "primemark"));
+        System.out.println("persons trousers: " + personTrousers);
 
+    }
+    public static void printMyJeans( Map<String, Trousers> trousersMap) {
+        System.out.println("Let's start with known keys");
+        System.out.println("key=my[ favorite jeans] " + trousersMap.get("my favorite jeans"));
+        System.out.println("key=my[ favorite jeans] " + trousersMap.get("stupid key"));
+
+        System.out.println("Let's iterate the map");
+        // Map entry represents key + value at once
+     for (Map.Entry<String, Trousers> item : trousersMap.entrySet()) {
+        System.out.println("Key: " + item.getKey());
+        System.out.println("Value: " + item.getValue());
+        }
     }
 }
