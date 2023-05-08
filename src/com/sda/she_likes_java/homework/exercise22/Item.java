@@ -10,8 +10,7 @@ public class Item {
     }
 
     public static Object get(int i) {
-        Object total = null;
-        return total;
+        return null;
     }
 
     public String getProductName() {
