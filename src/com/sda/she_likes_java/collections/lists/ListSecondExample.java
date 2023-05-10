@@ -1,5 +1,11 @@
 package com.sda.she_likes_java.collections.lists;
 
+
+
+
+
+import com.sda.she_likes_java.collections.Person;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -24,6 +30,19 @@ public class ListSecondExample {
         System.out.println("Let's add some name to the list");
         addName(names);
         printNames(names);
+
+        System.out.println("Let's play with names");
+        List<Person> personList = List.of(
+                new Person("Johny", "Black"),
+                new Person("Leo", "Black"),
+                new Person("Ivan", "Black"),
+                new Person("Johny", "White"),
+                new Person("Johny", "Green")
+        );
+        List<Person> foundPersons = findPersonsByName(personList, "Johny"); // finding the names in the list
+        System.out.println("Persons with name Johny: " + foundPersons);               // it can be used with grades and other
+        foundPersons = findPersonsByName(personList, "John");              // below is the function
+        System.out.println("Persons with name John: " + foundPersons);                // 'finding items in the list'
     }
     public static void printNames(List<String> names) {
         for (String singleName : names ) {
@@ -50,5 +69,25 @@ public class ListSecondExample {
     public static void addName(List<String> stringList) {
         stringList.add("Kitija");
 
+    }
+
+    // finding item inside list
+
+    public static List<Person> findPersonsByName(List<Person> persons, String nameToFind) {
+
+        // 1. create empty result
+        List<Person> result = new ArrayList<>();
+
+        // 2. iterate the list
+        for (Person person : persons) {
+
+            // 3. if person has proper name - add it to the list (to the result)
+            if (person.getName().equals(nameToFind)) {
+                result.add(person);
+            }
+        }
+
+        // 4. return result
+        return result;
     }
 }
