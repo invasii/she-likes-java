@@ -9,7 +9,7 @@ public class DatabaseUtils {
     // handle internally
     public static Connection getConnection() {
         try {
-            return DriverManager.getConnection("jdbc:h2:tcp://localhost/~/databases/jdbc", "sa", "");
+            return DriverManager.getConnection("jdbc:h2:~\\Data\\she-goes-tech\\db", "sa", "");
 
         } catch (SQLException e) {
            return null;
